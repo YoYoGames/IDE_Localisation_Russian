@@ -1,0 +1,24 @@
+{
+  "name": "RussianLocalisation",
+  "bundle_version": "1.0",
+  "bundle_description": "Russian IDE localisations",
+  "required": false,
+  "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Russian",
+  "plugins": [
+    {
+      "plugin_name": "RussianLocalisation",
+      "localised_name": "russian_localisation",
+      "plugin_version": "1.0",
+      "type": "Language",
+      "plugin_data": {
+        "languages": [
+            { "Russian": "russian.csv" },
+            {"Russian": "russian_dnd.csv" }
+        ]
+      },
+      "description": "Russian IDE localisations",
+      "required_assemblies": [],
+      "dependencies": []
+    }
+  ]
+}
