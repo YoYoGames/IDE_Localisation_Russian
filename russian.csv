@@ -7,8 +7,8 @@ _LanguageNative,English,Русский,,Language name in the native language
 _LanguageCode,ru,ru,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
 _GameMaker2016,GameMaker,GameMaker,,IDE title
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
-_MANUAL_ONLINE_URL,https://manual-ru.yoyogames.com,https://manual-ru.yoyogames.com,,online manual url
-_TUTORIALS_ONLINE_URL,https://www.yoyogames.com/ru/tutorials,https://www.yoyogames.com/ru/tutorials,,Location of Tutorials url
+_MANUAL_ONLINE_URL,https://manual.gamemaker.io/monthly/ru,https://manual.gamemaker.io/monthly/ru,,online manual url
+_TUTORIALS_ONLINE_URL,https://gamemaker.io/ru/tutorials,https://gamemaker.io/ru/tutorials,,Location of Tutorials url
 $win_OpenInExplorer,Open In Explorer,Открыть в Explorer,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Открыть проект в Explorer,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Открыть лог в Explorer,,Windows version of Show Log In Explorer
@@ -7081,9 +7081,6 @@ CanvasText_ParaSpacing,Paragraph Spacing,Интервал между абзац�
 RedefineKeys_Record_Keys_Button,Key Search,Поиск по клавише,,Record keys button
 RedefineKeys_Default_Search,Search,Поиск,,Redefine Keys search box default text
 RedefineKeys_Default_Key_Search,Press a key to search,Нажмите клавишу для поиска,,Redefine Keys search box default text when searching for key
-Redefine_Keys_WarningKeys_Dialog,This command may not work properly with the {0} key. Are you sure you want to continue?,Эта команда может работать неправильно с клавишей {0}. Вы действительно хотите продолжить?,,Are you sure about remapping the command message text
-Redefine_Keys_ForbiddenKeys_Title,Forbidden Key,Запрещенная клавиша,,Forbidden Key Title
-Redefine_Keys_ForbiddenKeys_Dialog,This command cannot be remapped to {0} as the {1} key is forbidden for this command.,"Эту команду нельзя переназначить на {0}, так как клавиша {1} запрещена для этой команды.",,Forbidden keys message text
 Feather_LintMessages_Title,Feather Messages,Сообщения Feather,,Feather Messages Window Title
 Feather_RefactorDialog_Title,Rename Identifier,Переименовать идентификатор,,Refactor Dialog Title
 Feather_RefactorDialog_Content1,Provide a new name for '{0}':,Дайте новое имя «{0}»:,,Content 1
@@ -7271,9 +7268,9 @@ GMStdIfTimeSourceParent_Name,If Parent,Если родительский эле�
 GMStdIfTimeSourceParent_Desc,Check if a time source's parent satisfies a condition.,"Проверьте, удовлетворяет ли родительский элемент источника времени условию.",,GML Visual action description
 GMStdIfTimeSourceParent_Story_1,If the parent of time source ${idx} is ${parent},Если родительским элементом источника времени ${idx} является ${parent},,GML Visual story text
 GMStdIfTimeSourceParent_Story_2,If the parent of time source ${idx} is not ${parent},Если родительским элементом источника времени ${idx} не является ${parent},,GML Visual story text
-RedefineKeys_MoveFlowNext,Move Flow Next,Переместить поток на следующий шаг,,Redefine keys MoveFlowNext string
-RedefineKeys_MoveFlowPrevious,Move Flow Previous,Переместить поток на предыдущий шаг,,Redefine keys MoveFlowPrevious string
-RedefineKeys_FlowAccept,Flow Accept,Принятие потока,,Redefine keys FlowAccept string
+RedefineKeys_Move Focus Next,Move Flow Next,Переместить поток на следующий шаг,,Redefine keys MoveFlowNext string
+RedefineKeys_Move Focus Previous,Move Flow Previous,Переместить поток на предыдущий шаг,,Redefine keys MoveFlowPrevious string
+RedefineKeys_Focus Accept,Flow Accept,Принятие потока,,Redefine keys FlowAccept string
 RedefineKeys_Undo,Undo,Отменить,,Redefine keys Undo string
 RedefineKeys_Redo,Redo,Вернуть,,Redefine keys Redo string
 RedefineKeys_Rename,Rename,Переименовать,,Redefine keys Rename string
@@ -7283,8 +7280,8 @@ RedefineKeys_Zoom Out,Zoom Out,Уменьшить,,Redefine keys Zoom Out string
 RedefineKeys_Quit,Quit,Выход,,Redefine keys Quit string
 RedefineKeys_Save As,Save As,Сохранить как,,Redefine keys Save As string
 RedefineKeys_Export Project,Export Project,Экспортировать проект,,Redefine keys Export Project string
-RedefineKeys_force_dock_expansion,Force Dock Expansion,Раскрывать закрепленные панели,,Redefine keys force_dock_expansion string
-RedefineKeys_close_tab,Close Tab,Закрыть вкладку,,Redefine keys close_tab string
+RedefineKeys_Force Dock Expansion,Force Dock Expansion,Раскрывать закрепленные панели,,Redefine keys force_dock_expansion string
+RedefineKeys_Close Tab,Close Tab,Закрыть вкладку,,Redefine keys close_tab string
 RedefineKeys_CaretLeft,Caret Left,Курсор влево,,Redefine keys CaretLeft string
 RedefineKeys_CaretRight,Caret Right,Курсор вправо,,Redefine keys CaretRight string
 RedefineKeys_CaretUp,Caret Up,Курсор вверх,,Redefine keys CaretUp string
@@ -7350,15 +7347,15 @@ RedefineKeys_DecrementTextSize,Decrement Text Size,Уменьшить разме
 RedefineKeys_IncrementTextSize,Increment Text Size,Увеличить размер текста,,Redefine keys IncrementTextSize string
 RedefineKeys_TextEditorGotoLine,Text Editor Goto Line,Строка перехода в текстовом редакторе,,Redefine keys TextEditorGotoLine string
 RedefineKeys_toggle_canvas_rulers,Toggle Canvas Rulers,Вкл./выкл. линейки холста,,Redefine keys toggle_canvas_rulers string
-RedefineKeys_Toggle Grid Snap,Toggle Grid Snap,Вкл./выкл. привязку к сетке,,Redefine keys Toggle Grid Snap string
+RedefineKeys_Toggle Snap to Grid,Toggle Grid Snap,Вкл./выкл. привязку к сетке,,Redefine keys Toggle Grid Snap string
 RedefineKeys_sequence_split_keyframe,Sequence Split Keyframe,Последовательность — Разделить по опорным кадрам,,Redefine keys sequence_split_keyframe string
 RedefineKeys_sequence_remove_keyframe,Sequence Remove Keyframe,Последовательность — Удалить опорный кадр,,Redefine keys sequence_remove_keyframe string
-RedefineKeys_sequence_add_keyframe,Sequence Add Keyframe,Последовательность — Добавить опорный кадр,,Redefine keys sequence_add_keyframe string
+RedefineKeys_Add Key Frame,Sequence Add Keyframe,Последовательность — Добавить опорный кадр,,Redefine keys sequence_add_keyframe string
 RedefineKeys_sequence_toggle_autokey,Sequence Toggle Autokey,Последовательность — Вкл./выкл. авт. повтор ввода,,Redefine keys sequence_toggle_autokey string
 RedefineKeys_sequence_delete_bksp,Sequence Delete Bksp,Последовательность — Delete Bksp,,Redefine keys sequence_delete_bksp string
 RedefineKeys_Delete,Delete,Удалить,,Redefine keys Delete string
 RedefineKeys_sequence_toggle_multiselect_origin,Sequence Toggle Multiselect Origin,Последовательность — Вкл./выкл. источник множественного выбора,,Redefine keys sequence_toggle_multiselect_origin string
-RedefineKeys_sequence_center_item_origin,Sequence Center Item Origin,Последовательность — Центрировать источник элемента,,Redefine keys sequence_center_item_origin string
+RedefineKeys_Center Item Origin,Sequence Center Item Origin,Последовательность — Центрировать источник элемента,,Redefine keys sequence_center_item_origin string
 RedefineKeys_sequence_reset_item_position,Sequence Reset Item Position,Последовательность — Сброс положения элемента,,Redefine keys sequence_reset_item_position string
 RedefineKeys_seq_smartguide_toggle_vis,Seq Smartguide Toggle Vis,Мастер последовательностей — Вкл./выкл. видимость,,Redefine keys seq_smartguide_toggle_vis string
 RedefineKeys_seq_smartguide_toggle_rulerlock,Seq Smartguide Toggle Rulerlock,Мастер последовательностей — Вкл./выкл. блокировку линеек,,Redefine keys seq_smartguide_toggle_rulerlock string
@@ -7385,16 +7382,16 @@ RedefineKeys_sequence_trim_key_right,Sequence Trim Key Right,Последова�
 RedefineKeys_sequence_split_key_two_tracks,Sequence Split Key Two Tracks,Последовательность — Разделить кнопку на две дорожки,,Redefine keys sequence_split_key_two_tracks string
 RedefineKeys_sequence_stretch_keys_right,Sequence Stretch Keys Right,Последовательность — Растянуть кнопку справа,,Redefine keys sequence_stretch_keys_right string
 RedefineKeys_sequence_stretch_keys_left,Sequence Stretch Keys Left,Последовательность — Растянуть кнопку слева,,Redefine keys sequence_stretch_keys_left string
-RedefineKeys_sequence_next_keyframe,Sequence Next Keyframe,Последовательность — Следующий опорный кадр,,Redefine keys sequence_next_keyframe string
-RedefineKeys_sequence_prev_keyframe,Sequence Prev Keyframe,Последовательность — Предыдущий опорный кадр,,Redefine keys sequence_prev_keyframe string
+RedefineKeys_Go To Next Keyframe,Sequence Next Keyframe,Последовательность — Следующий опорный кадр,,Redefine keys sequence_next_keyframe string
+RedefineKeys_Go To Previous Keyframe,Sequence Prev Keyframe,Последовательность — Предыдущий опорный кадр,,Redefine keys sequence_prev_keyframe string
 RedefineKeys_sequence_select_next_key,Sequence Select Next Key,Последовательность — Выбрать следующую кнопку,,Redefine keys sequence_select_next_key string
 RedefineKeys_sequence_select_prev_key,Sequence Select Prev Key,Последовательность — Выбрать предыдущую кнопку,,Redefine keys sequence_select_prev_key string
-RedefineKeys_sequence_goto_start,Sequence Goto Start,Последовательность — Перейти к началу,,Redefine keys sequence_goto_start string
-RedefineKeys_sequence_goto_end,Sequence Goto End,Последовательность — Перейти к концу,,Redefine keys sequence_goto_end string
-RedefineKeys_sequence_goto_start_selection,Sequence Goto Start Selection,Последовательность — Перейти к выбору начала,,Redefine keys sequence_goto_start_selection string
-RedefineKeys_sequence_goto_end_selection,Sequence Goto End Selection,Последовательность — Перейти к выбору конца,,Redefine keys sequence_goto_end_selection string
-RedefineKeys_sequence_expand_tracks_selection,Sequence Expand Tracks Selection,Последовательность — Раскрыть выбранные дорожки,,Redefine keys sequence_expand_tracks_selection string
-RedefineKeys_sequence_expand_tracks_all,Sequence Expand Tracks All,Последовательность — Раскрыть все дорожки,,Redefine keys sequence_expand_tracks_all string
+RedefineKeys_Go To Start,Sequence Goto Start,Последовательность — Перейти к началу,,Redefine keys sequence_goto_start string
+RedefineKeys_Go To End,Sequence Goto End,Последовательность — Перейти к концу,,Redefine keys sequence_goto_end string
+RedefineKeys_Go To Start of Selection,Sequence Goto Start Selection,Последовательность — Перейти к выбору начала,,Redefine keys sequence_goto_start_selection string
+RedefineKeys_Go To End of Selection,Sequence Goto End Selection,Последовательность — Перейти к выбору конца,,Redefine keys sequence_goto_end_selection string
+RedefineKeys_Expand Selected Tracks,Sequence Expand Tracks Selection,Последовательность — Раскрыть выбранные дорожки,,Redefine keys sequence_expand_tracks_selection string
+RedefineKeys_Expand All Tracks,Sequence Expand Tracks All,Последовательность — Раскрыть все дорожки,,Redefine keys sequence_expand_tracks_all string
 RedefineKeys_sequence_select_track_above,Sequence Select Track Above,Последовательность — Выбрать дорожку выше,,Redefine keys sequence_select_track_above string
 RedefineKeys_sequence_select_track_below,Sequence Select Track Below,Последовательность — Выбрать дорожку ниже,,Redefine keys sequence_select_track_below string
 RedefineKeys_sequence_select_track_above_additive,Sequence Select Track Above Additive,Последовательность — Выбрать дорожку выше прибавки,,Redefine keys sequence_select_track_above_additive string
@@ -7403,49 +7400,48 @@ RedefineKeys_sequence_new_clipping_mask,Sequence New Clipping Mask,Послед�
 RedefineKeys_sequence_new_group,Sequence New Group,Последовательность — Новая группа,,Redefine keys sequence_new_group string
 RedefineKeys_sequence_new_broadcast_message,Sequence New Broadcast Message,Последовательность — Новое сообщение для рассылки,,Redefine keys sequence_new_broadcast_message string
 RedefineKeys_sequence_new_moment,Sequence New Moment,Последовательность — Новый момент,,Redefine keys sequence_new_moment string
-RedefineKeys_sequence_goto_next_event,Sequence Goto Next Event,Последовательность — Перейти к следующему событию,,Redefine keys sequence_goto_next_event string
-RedefineKeys_sequence_goto_prev_event,Sequence Goto Prev Event,Последовательность — Перейти к предыдущему событию,,Redefine keys sequence_goto_prev_event string
+RedefineKeys_Go To Next Event,Sequence Goto Next Event,Последовательность — Перейти к следующему событию,,Redefine keys sequence_goto_next_event string
+RedefineKeys_Go To Previous Event,Sequence Goto Prev Event,Последовательность — Перейти к предыдущему событию,,Redefine keys sequence_goto_prev_event string
 RedefineKeys_tool_translate,Tool Translate,Преобразование инструмента,,Redefine keys tool_translate string
 RedefineKeys_tool_scale,Tool Scale,Масштабирование инструмента,,Redefine keys tool_scale string
 RedefineKeys_tool_rotate,Tool Rotate,Вращение инструмента,,Redefine keys tool_rotate string
 RedefineKeys_tool_origin,Tool Origin,Источник инструмента,,Redefine keys tool_origin string
 RedefineKeys_Play,Play,Воспроизвести,,Redefine keys Play string
 RedefineKeys_Toggle Grid,Toggle Grid,Вкл./выкл. сетку,,Redefine keys Toggle Grid string
-RedefineKeys_GoTo,Go To,Перейти,,Redefine keys GoTo string
-RedefineKeys_OpenWorkspaceOverview,Open Workspace Overview,Открыть обзор рабочего пространства,,Redefine keys OpenWorkspaceOverview string
+RedefineKeys_Open GoTo Menu,Go To,Перейти,,Redefine keys GoTo string
+RedefineKeys_Open Workspace Overview,Open Workspace Overview,Открыть обзор рабочего пространства,,Redefine keys OpenWorkspaceOverview string
 RedefineKeys_Run,Run,Запуск,,Redefine keys Run string
 RedefineKeys_Debug,Debug,Отладка,,Redefine keys Debug string
 RedefineKeys_Clean,Clean,Очистить,,Redefine keys Clean string
-RedefineKeys_Create Executable,Create Executable,Создать исполняемый файл,,Redefine keys Create Executable string
+RedefineKeys_Package,Create Executable,Создать исполняемый файл,,Redefine keys Create Executable string
 RedefineKeys_open_debug_info,Open Debug Info,Открыть информацию об отладке,,Redefine keys open_debug_info string
 RedefineKeys_run_memory_info,Run Memory Info,Информация о памяти при запуске,,Redefine keys run_memory_info string
-RedefineKeys_open_search_replace,Open Search Replace,Открыть окно поиска/замены,,Redefine keys open_search_replace string
+RedefineKeys_Open Search and Replace,Open Search Replace,Открыть окно поиска/замены,,Redefine keys open_search_replace string
 RedefineKeys_open_search_in_script_find,Open Search In Script Find,Открыть окно поиска в разделе «Поиск скриптов»,,Redefine keys open_search_in_script_find string
 RedefineKeys_open_search_in_script_replace,Open Search In Script Replace,Открыть окно замены в разделе «Поиск скриптов»,,Redefine keys open_search_in_script_replace string
-RedefineKeys_open_prefs_tree,Open Prefs Tree,Открыть дерево предпочтений,,Redefine keys open_prefs_tree string
-RedefineKeys_set_bookmark_1,Set Bookmark 1,Установить закладку 1,,Redefine keys set_bookmark_1 string
-RedefineKeys_set_bookmark_2,Set Bookmark 2,Установить закладку 2,,Redefine keys set_bookmark_2 string
-RedefineKeys_set_bookmark_3,Set Bookmark 3,Установить закладку 3,,Redefine keys set_bookmark_3 string
-RedefineKeys_set_bookmark_4,Set Bookmark 4,Установить закладку 4,,Redefine keys set_bookmark_4 string
-RedefineKeys_set_bookmark_5,Set Bookmark 5,Установить закладку 5,,Redefine keys set_bookmark_5 string
-RedefineKeys_set_bookmark_6,Set Bookmark 6,Установить закладку 6,,Redefine keys set_bookmark_6 string
-RedefineKeys_set_bookmark_7,Set Bookmark 7,Установить закладку 7,,Redefine keys set_bookmark_7 string
-RedefineKeys_set_bookmark_8,Set Bookmark 8,Установить закладку 8,,Redefine keys set_bookmark_8 string
-RedefineKeys_set_bookmark_9,Set Bookmark 9,Установить закладку 9,,Redefine keys set_bookmark_9 string
-RedefineKeys_set_bookmark_0,Set Bookmark 0,Установить закладку 0,,Redefine keys set_bookmark_0 string
-RedefineKeys_get_bookmark_1,Get Bookmark 1,Получить закладку 1,,Redefine keys get_bookmark_1 string
-RedefineKeys_get_bookmark_2,Get Bookmark 2,Получить закладку 2,,Redefine keys get_bookmark_2 string
-RedefineKeys_get_bookmark_3,Get Bookmark 3,Получить закладку 3,,Redefine keys get_bookmark_3 string
-RedefineKeys_get_bookmark_4,Get Bookmark 4,Получить закладку 4,,Redefine keys get_bookmark_4 string
-RedefineKeys_get_bookmark_5,Get Bookmark 5,Получить закладку 5,,Redefine keys get_bookmark_5 string
-RedefineKeys_get_bookmark_6,Get Bookmark 6,Получить закладку 6,,Redefine keys get_bookmark_6 string
-RedefineKeys_get_bookmark_7,Get Bookmark 7,Получить закладку 7,,Redefine keys get_bookmark_7 string
-RedefineKeys_get_bookmark_8,Get Bookmark 8,Получить закладку 8,,Redefine keys get_bookmark_8 string
-RedefineKeys_get_bookmark_9,Get Bookmark 9,Получить закладку 9,,Redefine keys get_bookmark_9 string
-RedefineKeys_get_bookmark_0,Get Bookmark 0,Получить закладку 0,,Redefine keys get_bookmark_0 string
+RedefineKeys_Set Bookmark 1,Set Bookmark 1,Установить закладку 1,,Redefine keys Set Bookmark 1 string
+RedefineKeys_Set Bookmark 2,Set Bookmark 2,Установить закладку 2,,Redefine keys Set Bookmark 2 string
+RedefineKeys_Set Bookmark 3,Set Bookmark 3,Установить закладку 3,,Redefine keys Set Bookmark 3 string
+RedefineKeys_Set Bookmark 4,Set Bookmark 4,Установить закладку 4,,Redefine keys Set Bookmark 4 string
+RedefineKeys_Set Bookmark 5,Set Bookmark 5,Установить закладку 5,,Redefine keys Set Bookmark 5 string
+RedefineKeys_Set Bookmark 6,Set Bookmark 6,Установить закладку 6,,Redefine keys Set Bookmark 6 string
+RedefineKeys_Set Bookmark 7,Set Bookmark 7,Установить закладку 7,,Redefine keys Set Bookmark 7 string
+RedefineKeys_Set Bookmark 8,Set Bookmark 8,Установить закладку 8,,Redefine keys Set Bookmark 8 string
+RedefineKeys_Set Bookmark 9,Set Bookmark 9,Установить закладку 9,,Redefine keys Set Bookmark 9 string
+RedefineKeys_Set Bookmark 0,Set Bookmark 0,Установить закладку 0,,Redefine keys Set Bookmark 0 string
+RedefineKeys_Get Bookmark 1,Get Bookmark 1,Получить закладку 1,,Redefine keys Get Bookmark 1 string
+RedefineKeys_Get Bookmark 2,Get Bookmark 2,Получить закладку 2,,Redefine keys Get Bookmark 2 string
+RedefineKeys_Get Bookmark 3,Get Bookmark 3,Получить закладку 3,,Redefine keys Get Bookmark 3 string
+RedefineKeys_Get Bookmark 4,Get Bookmark 4,Получить закладку 4,,Redefine keys Get Bookmark 4 string
+RedefineKeys_Get Bookmark 5,Get Bookmark 5,Получить закладку 5,,Redefine keys Get Bookmark 5 string
+RedefineKeys_Get Bookmark 6,Get Bookmark 6,Получить закладку 6,,Redefine keys Get Bookmark 6 string
+RedefineKeys_Get Bookmark 7,Get Bookmark 7,Получить закладку 7,,Redefine keys Get Bookmark 7 string
+RedefineKeys_Get Bookmark 8,Get Bookmark 8,Получить закладку 8,,Redefine keys Get Bookmark 8 string
+RedefineKeys_Get Bookmark 9,Get Bookmark 9,Получить закладку 9,,Redefine keys Get Bookmark 9 string
+RedefineKeys_Get Bookmark 0,Get Bookmark 0,Получить закладку 0,,Redefine keys Get Bookmark 0 string
 RedefineKeys_manage_plugins,Manage Plugins,Управление плагинами,,Redefine keys manage_plugins string
-RedefineKeys_open_inspector,Open Inspector,Открыть инспектор,,Redefine keys open_inspector string
-RedefineKeys_open_asset_browser,Open Asset Browser,Открыть браузер ресурсов,,Redefine keys open_asset_browser string
+RedefineKeys_Open Inspector,Open Inspector,Открыть инспектор,,Redefine keys open_inspector string
+RedefineKeys_Open Asset Browser,Open Asset Browser,Открыть браузер ресурсов,,Redefine keys open_asset_browser string
 RedefineKeys_do_nothing_rewrite,Do Nothing Rewrite,Ничего не перезаписывать,,Redefine keys do_nothing_rewrite string
 RedefineKeys_enumerate_references,Enumerate References,Пронумеровать ссылки,,Redefine keys enumerate_references string
 RedefineKeys_find_all_references,Find All References,Найти все ссылки,,Redefine keys find_all_references string
@@ -7471,10 +7467,10 @@ RedefineKeys_Add Frame,Add Frame,Добавить кадр,,Redefine keys Add Fr
 RedefineKeys_insert_frame,Insert Frame,Вставить кадр,,Redefine keys insert_frame string
 RedefineKeys_backspace_delete,Backspace Delete,Backspace Delete,,Redefine keys backspace_delete string
 RedefineKeys_import_files,Import Files,Импортировать файлы,,Redefine keys import_files string
-RedefineKeys_move_selection_up,Move Selection Up,Переместить выбранные вверх,,Redefine keys move_selection_up string
-RedefineKeys_move_selection_down,Move Selection Down,Переместить выбранные вниз,,Redefine keys move_selection_down string
-RedefineKeys_move_selection_left,Move Selection Left,Переместить выбранные влево,,Redefine keys move_selection_left string
-RedefineKeys_move_selection_right,Move Selection Right,Переместить выбранные вправо,,Redefine keys move_selection_right string
+RedefineKeys_Move Selection Up,Move Selection Up,Переместить выбранные вверх,,Redefine keys move_selection_up string
+RedefineKeys_Move Selection Down,Move Selection Down,Переместить выбранные вниз,,Redefine keys move_selection_down string
+RedefineKeys_Move Selection Left,Move Selection Left,Переместить выбранные влево,,Redefine keys move_selection_left string
+RedefineKeys_Move Selection Right,Move Selection Right,Переместить выбранные вправо,,Redefine keys move_selection_right string
 RedefineKeys_import_from_strip,Import From Strip,Импорт из очищенного,,Redefine keys import_from_strip string
 RedefineKeys_increment_brush_size,Increment Brush Size,Увеличить размер кисти,,Redefine keys increment_brush_size string
 RedefineKeys_increment_brush_size2,Increment Brush Size2,Увеличить размер 2 кисти,,Redefine keys increment_brush_size2 string
@@ -7487,10 +7483,10 @@ RedefineKeys_Open Layer View,Open Layer View,Открыть представле
 RedefineKeys_cut_selection_win,Cut Selection Win,Окно «Вырезать выбранные»,,Redefine keys cut_selection_win string
 RedefineKeys_copy_selection_win,Copy Selection Win,Окно «Копировать выбранные»,,Redefine keys copy_selection_win string
 RedefineKeys_paste_selection_Win,Paste Selection Win,Окно «Вставить выбранные»,,Redefine keys paste_selection_Win string
-RedefineKeys_Mirror as Individuals,Mirror As Individuals,Отразить как отдельные,,Redefine keys Mirror as Individuals string
-RedefineKeys_Mirror as Group,Mirror As Group,Отразить как группу,,Redefine keys Mirror as Group string
-RedefineKeys_Flip as Individuals,Flip As Individuals,Перевернуть как отдельные,,Redefine keys Flip as Individuals string
-RedefineKeys_Flip as Group,Flip As Group,Перевернуть как группу,,Redefine keys Flip as Group string
+RedefineKeys_Mirror As Individuals,Mirror As Individuals,Отразить как отдельные,,Redefine keys Mirror as Individuals string
+RedefineKeys_Mirror As Group,Mirror As Group,Отразить как группу,,Redefine keys Mirror as Group string
+RedefineKeys_Flip As Individuals,Flip As Individuals,Перевернуть как отдельные,,Redefine keys Flip as Individuals string
+RedefineKeys_Flip As Group,Flip As Group,Перевернуть как группу,,Redefine keys Flip as Group string
 RedefineKeys_toggle_grid,Toggle Grid,Вкл./выкл. сетку,,Redefine keys toggle_grid string
 RedefineKeys_Add Moment,Add Moment,Добавить момент,,Redefine keys Add Moment string
 RedefineKeys_cut_moments_win,Cut Moments Win,Окно «Вырезать моменты»,,Redefine keys cut_moments_win string
@@ -7521,7 +7517,7 @@ RedefineKeys_insert_sprite_frame,Insert Sprite Frame,Вставить кадр �
 RedefineKeys_copy_frames_win,Copy Frames Win,Окно «Копировать кадры»,,Redefine keys copy_frames_win string
 RedefineKeys_paste_frames_win,Paste Frames Win,Окно «Вставить кадры»,,Redefine keys paste_frames_win string
 RedefineKeys_cut_frames_win,Cut Frames Win,Окно «Вырезать кадры»,,Redefine keys cut_frames_win string
-RedefineKeys_Pan To Path,Pan To Path,Панорамировать относительно пути,,Redefine keys Pan To Path string
+RedefineKeys_Pan To,Pan To Path,Панорамировать относительно пути,,Redefine keys Pan To Path string
 RedefineKeys_Reverse Path,Reverse Path,Инвертировать путь,,Redefine keys Reverse Path string
 RedefineKeys_Mirror,Mirror,Отражение,,Redefine keys Mirror string
 RedefineKeys_Flip,Flip,Перевернуть,,Redefine keys Flip string
@@ -7537,10 +7533,6 @@ RedefineKeys_debugger_continue,Debugger Continue,Отладчик — Прод�
 RedefineKeys_debugger_step_into,Debugger Step Into,Отладчик — Шаг с заходом,,Redefine keys debugger_step_into string
 RedefineKeys_debugger_step_over,Debugger Step Over,Отладчик — Шаг с обходом,,Redefine keys debugger_step_over string
 RedefineKeys_debugger_step_out,Debugger Step Out,Отладчик — Шаг с выходом,,Redefine keys debugger_step_out string
-RedefineKeys_ab_arrange_up,Ab Arrange Up,Ab — Упорядочить вверх,,Redefine keys ab_arrange_up string
-RedefineKeys_ab_arrange_down,Ab Arrange Down,Ab — Упорядочить вниз,,Redefine keys ab_arrange_down string
-RedefineKeys_ab_arrange_top,Ab Arrange Top,Ab — Упорядочить сверху,,Redefine keys ab_arrange_top string
-RedefineKeys_ab_arrange_bottom,Ab Arrange Bottom,Ab — Упорядочить снизу,,Redefine keys ab_arrange_bottom string
 RedefineKeys_ac_delete_bksp,Ac Delete Bksp,Ac Delete Bksp,,Redefine keys ac_delete_bksp string
 RedefineKeys_ace_cancel,Ace Cancel,Ace Cancel,,Redefine keys ace_cancel string
 RedefineKeys_ac_path_display,Ac Path Display,Ac Path Display,,Redefine keys ac_path_display string
@@ -7718,7 +7710,7 @@ RedefineKeys_ObjectEditor_InheritParentEvent,Object Editor Inherit Parent Event,
 RedefineKeys_ObjectEditor_OverrideParentEvent,Object Editor Override Parent Event,Редактор объектов — Переопределить родительское событие,,Redefine keys ObjectEditor_OverrideParentEvent string
 RedefineKeys_SplineEditor_DeletePoints,Spline Editor Delete Points,Редактор сплайнов — Удалить точки,,Redefine keys SplineEditor_DeletePoints string
 RedefineKeys_PathEditor_ContextMenu_EditPoint,Path Editor Context Menu Edit Point,Редактор путей — Контекстное меню — Изменить точку,,Redefine keys PathEditor_ContextMenu_EditPoint string
-RedefineKeys_Generate Tile Map,Generate Tile Map,Генерировать тайловую карту,,Redefine keys Generate Tile Map string
+RedefineKeys_Generate Tile Map From Image,Generate Tile Map,Генерировать тайловую карту,,Redefine keys Generate Tile Map string
 RedefineKeys_RoomEditor_DeleteLayer,Room Editor Delete Layer,Редактор комнат — Удалить слой,,Redefine keys RoomEditor_DeleteLayer string
 RedefineKeys_RoomEditor_AddRootLayer,Room Editor Add Root Layer,Редактор комнат — Добавить корневой слой,,Redefine keys RoomEditor_AddRootLayer string
 RedefineKeys_RoomEditor_AddSubLayer,Room Editor Add Sub Layer,Редактор комнат — Добавить подслой,,Redefine keys RoomEditor_AddSubLayer string
@@ -7765,11 +7757,11 @@ RedefineKeys_resize_image,Resize Image,Изменить размер изобр�
 RedefineKeys_play_preview,Play Preview,Воспроизвести предпросмотр,,Redefine keys play_preview string
 RedefineKeys_Jump To End,Jump To End,Перейти в конец,,Redefine keys Jump To End string
 RedefineKeys_Jump To Start,Jump To Start,Перейти в начало,,Redefine keys Jump To Start string
-RedefineKeys_add_new_background_layer,Add New Background Layer,Добавить новый фоновый слой,,Redefine keys add_new_background_layer string
-RedefineKeys_add_new_tile_layer,Add New Tile Layer,Добавить новый слой плиток,,Redefine keys add_new_tile_layer string
-RedefineKeys_add_new_path_layer,Add New Path Layer,Добавить новый слой путей,,Redefine keys add_new_path_layer string
-RedefineKeys_add_new_asset_layer,Add New Asset Layer,Добавить новый слой ресурсов,,Redefine keys add_new_asset_layer string
-RedefineKeys_add_new_folder_layer,Add New Folder Layer,Добавить новый слой папок,,Redefine keys add_new_folder_layer string
+RedefineKeys_Create Background Layer,Add New Background Layer,Добавить новый фоновый слой,,Redefine keys add_new_background_layer string
+RedefineKeys_Create Tile Layer,Add New Tile Layer,Добавить новый слой плиток,,Redefine keys add_new_tile_layer string
+RedefineKeys_Create Path Layer,Add New Path Layer,Добавить новый слой путей,,Redefine keys add_new_path_layer string
+RedefineKeys_Create Asset Layer,Add New Asset Layer,Добавить новый слой ресурсов,,Redefine keys add_new_asset_layer string
+RedefineKeys_Create Layer Folder,Add New Folder Layer,Добавить новый слой папок,,Redefine keys add_new_folder_layer string
 RedefineKeys_select_PaintbrushTool,Select Paintbrush Tool,Выбрать инструмент «Кисточка»,,Redefine keys select_PaintbrushTool string
 RedefineKeys_select_EraseTool,Select Erase Tool,Выбрать инструмент «Ластик»,,Redefine keys select_EraseTool string
 RedefineKeys_select_FillTool,Select Fill Tool,Выбрать инструмент «Заливка»,,Redefine keys select_FillTool string
@@ -7803,11 +7795,11 @@ RedefineKeys_open_variable_definitions,Open Variable Definitions,Открыть 
 RedefineKeys_add_event,Add Event,Добавить событие,,Redefine keys add_event string
 RedefineKeys_select_parent,Select Parent,Выбрать родительский элемент,,Redefine keys select_parent string
 RedefineKeys_edit_parent,Edit Parent,Изменить родительский элемент,,Redefine keys edit_parent string
-RedefineKeys_add_child,Add Child,Добавить дочерний элемент,,Redefine keys add_child string
+RedefineKeys_Add Child,Add Child,Добавить дочерний элемент,,Redefine keys add_child string
 RedefineKeys_modify_collision_shape,Modify Collision Shape,Изменить форму столкновения,,Redefine keys modify_collision_shape string
 RedefineKeys_physics_toggle_grid,Physics Toggle Grid,Физика — Вкл./выкл. сетку,,Redefine keys physics_toggle_grid string
 RedefineKeys_physics_snap_to_grid,Physics Snap To Grid,Физика — Привязка к сетке,,Redefine keys physics_snap_to_grid string
-RedefineKeys_add_variable,Add Variable,Добавить переменную,,Redefine keys add_variable string
+RedefineKeys_Add Variable,Add Variable,Добавить переменную,,Redefine keys add_variable string
 RedefineKeys_add_new_range,Add New Range,Добавить новый диапазон,,Redefine keys add_new_range string
 RedefineKeys_delete_selected_range,Delete Selected Range,Удалить выбранный диапазон,,Redefine keys delete_selected_range string
 RedefineKeys_open_options,Open Options,Открыть настройки,,Redefine keys open_options string
@@ -7829,13 +7821,13 @@ RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Автом�
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Автоматическое мозаичное заполнение — Удалить набор,,Redefine keys autotile_delete_set string
 RedefineKeys_autotile_show_guide,Autotile Show Guide,Автоматическое мозаичное заполнение — Показать руководство,,Redefine keys autotile_show_guide string
 RedefineKeys_add_curve,Add Curve,Добавить кривую,,Redefine keys add_curve string
-RedefineKeys_Zoom Fit,Zoom Fit,Масштабировать с подгонкой,,Redefine keys Zoom Fit string
+RedefineKeys_Zoom Centre Fit,Zoom Fit,Масштабировать с подгонкой,,Redefine keys Zoom Fit string
 RedefineKeys_set_range,Set Range,Задать диапазон,,Redefine keys set_range string
-RedefineKeys_open_shift_path,Open Shift Path,Открыть путь сдвига,,Redefine keys open_shift_path string
-RedefineKeys_shift_left,Shift Left,Сдвиг влево,,Redefine keys shift_left string
-RedefineKeys_shift_right,Shift Right,Сдвиг вправо,,Redefine keys shift_right string
-RedefineKeys_shift_up,Shift Up,Сдвиг вверх,,Redefine keys shift_up string
-RedefineKeys_shift_down,Shift Down,Сдвиг вниз,,Redefine keys shift_down string
+RedefineKeys_Shift Path,Open Shift Path,Открыть путь сдвига,,Redefine keys open_shift_path string
+RedefineKeys_Shift Path Left,Shift Left,Сдвиг влево,,Redefine keys shift_left string
+RedefineKeys_Shift Path Right,Shift Right,Сдвиг вправо,,Redefine keys shift_right string
+RedefineKeys_Shift Path Up,Shift Up,Сдвиг вверх,,Redefine keys shift_up string
+RedefineKeys_Shift Path Down,Shift Down,Сдвиг вниз,,Redefine keys shift_down string
 RedefineKeys_load_sound,Load Sound,Загрузить звук,,Redefine keys load_sound string
 RedefineKeys_mute_sound,Mute Sound,Отключить звук,,Redefine keys mute_sound string
 RedefineKeys_play_sound,Play Sound,Воспроизвести звук,,Redefine keys play_sound string
@@ -7846,18 +7838,17 @@ RedefineKeys_mute_all,Mute All,Отключить все звуки,,Redefine ke
 RedefineKeys_play_all,Play All,Воспроизвести все,,Redefine keys play_all string
 RedefineKeys_loop_all,Loop All,Закольцевать все,,Redefine keys loop_all string
 RedefineKeys_rewind_all,Rewind All,Перемотать все назад,,Redefine keys rewind_all string
-RedefineKeys_create_asset,Create Asset,Создать ресурс,,Redefine keys create_asset string
+RedefineKeys_Create Asset,Create Asset,Создать ресурс,,Redefine keys create_asset string
 RedefineKeys_confirm_create_asset,Confirm Create Asset,Подтвердить создание ресурса,,Redefine keys confirm_create_asset string
 RedefineKeys_ide_toolbar_help,Ide Toolbar Help,Панель инструментов Ide — Справка,,Redefine keys ide_toolbar_help string
 RedefineKeys_ide_toolbar_collapsedocks,Ide Toolbar Collapsedocks,Панель инструментов Ide — Свернуть закрепленные панели,,Redefine keys ide_toolbar_collapsedocks string
 RedefineKeys_RestartGame,Restart Game,Перезапустить игру,,Redefine keys RestartGame string
-RedefineKeys_MultiSelect,Multi Select,Множественный выбор,,Redefine keys MultiSelect string
-RedefineKeys_Zoom,Zoom,Масштаб,,Redefine keys Zoom string
-RedefineKeys_Pan,Pan,Панорамирование,,Redefine keys Pan string
-RedefineKeys_SelectRange,Select Range,Выбрать диапазон,,Redefine keys SelectRange string
-RedefineKeys_PreciseItemPlacement,Precise Item Placement,Точное расположение элемента,,Redefine keys PreciseItemPlacement string
-RedefineKeys_PaintWithResource,Paint With Resource,Окрасить с использованием ресурса,,Redefine keys PaintWithResource string
-RedefineKeys_SelectFromAnyLayer,Select From Any Layer,Выбрать из любого слоя,,Redefine keys SelectFromAnyLayer string
+RedefineKeys_Select Multiple,Multi Select,Множественный выбор,,Redefine keys MultiSelect string
+RedefineKeys_Pan Area Zoom,Zoom,Масштаб,,Redefine keys Zoom string
+RedefineKeys_Pan Area Pan,Pan,Панорамирование,,Redefine keys Pan string
+RedefineKeys_Select Range,Select Range,Выбрать диапазон,,Redefine keys SelectRange string
+RedefineKeys_Paint With Resource,Paint With Resource,Окрасить с использованием ресурса,,Redefine keys PaintWithResource string
+RedefineKeys_Select From Any Layer,Select From Any Layer,Выбрать из любого слоя,,Redefine keys SelectFromAnyLayer string
 RedefineKeys_Arc Move Control Point A,Arc Move Control Point A,Перемещение дуги — Контрольная точка A,,Redefine keys Arc Move Control Point A string
 RedefineKeys_Arc Move Control Point B,Arc Move Control Point B,Перемещение дуги — Контрольная точка B,,Redefine keys Arc Move Control Point B string
 RedefineKeys_Snap Tool Modifier,Snap Tool Modifier,Модификатор инструмента привязки,,Redefine keys Snap Tool Modifier string
@@ -7865,12 +7856,12 @@ RedefineKeys_ColourReplaceWithAlpha,Colour Replace With Alpha,Замена цв�
 RedefineKeys_Draw Regular Shape,Draw Regular Shape,Начертить правильную фигуру,,Redefine keys Draw Regular Shape string
 RedefineKeys_Draw Centred Shape,Draw Centred Shape,Начертить центрально-симметричную фигуру,,Redefine keys Draw Centred Shape string
 RedefineKeys_FillToolTileWithBrush,Fill Tool Tile With Brush,Инструмент «Заливка» — Залить плитку кистью,,Redefine keys FillToolTileWithBrush string
-RedefineKeys_AddToSelection,Add To Selection,Добавить в выбранное,,Redefine keys AddToSelection string
-RedefineKeys_RemoveFromSelection,Remove From Selection,Удалить из выбранного,,Redefine keys RemoveFromSelection string
+RedefineKeys_Add Selection,Add To Selection,Добавить в выбранное,,Redefine keys AddToSelection string
+RedefineKeys_Remove Selection,Remove From Selection,Удалить из выбранного,,Redefine keys RemoveFromSelection string
 RedefineKeys_OpenColourPanelOnSelect,Open Colour Panel On Select,Открывать панель цветов при выборе,,Redefine keys OpenColourPanelOnSelect string
-RedefineKeys_RotatePath,Rotate Path,Повернуть путь,,Redefine keys RotatePath string
-RedefineKeys_TranslatePath,Translate Path,Преобразовать путь,,Redefine keys TranslatePath string
-RedefineKeys_ScalePath,Scale Path,Масштабировать путь,,Redefine keys ScalePath string
+RedefineKeys_Rotate Path,Rotate Path,Повернуть путь,,Redefine keys RotatePath string
+RedefineKeys_Translate Path,Translate Path,Преобразовать путь,,Redefine keys TranslatePath string
+RedefineKeys_Scale Path,Scale Path,Масштабировать путь,,Redefine keys ScalePath string
 RedefineKeys_DopeSheetPanel_ScrollCommand,Dope Sheet Panel Scroll Command,Монтажный лист — команда прокрутки панели,,Redefine keys DopeSheetPanel_ScrollCommand string
 RedefineKeys_feather_open_quickfix_menu,Feather Open Quickfix Menu,Feather — Открыть меню «Быстрое исправление»,,Redefine keys feather_open_quickfix_menu string
 RedefineKeys_TileFlipTool,Tile Flip Tool,Инструмент «Переворачивание плитки»,,Redefine keys TileFlipTool string
@@ -7885,9 +7876,9 @@ RedefineKeys_TileRotateTool,Tile Rotate Tool,Инструмент «Вращен
 RedefineKeys_TileSelectionTool,Tile Selection Tool,Инструмент «Выбор плитки»,,Redefine keys TileSelectionTool string
 RedefineKeys_AutoTileTool,Auto Tile Tool,Инструмент «Автоматическое мозаичное заполнение»,,Redefine keys AutoTileTool string
 RedefineKeys_PaintBrush,Room Editor Paint Brush,Редактор комнат — Кисть,,Redefine keys RoomEditorPaintBrush string
-RedefineKeys_ActivateTileSelectWindow,Activate Tile Select Window,Активировать окно выбора плитки,,Redefine keys ActivateTileSelectWindow string
+RedefineKeys_Open Tile Selection Window,Activate Tile Select Window,Активировать окно выбора плитки,,Redefine keys ActivateTileSelectWindow string
 RedefineKeys_InvertSelection,Invert Selection,Инвертировать выбор,,Redefine keys InvertSelection string
-RedefineKeys_ToggleMacroEditingMode,Toggle Macro Editing Mode,Вкл./выкл. режим изменения макроса,,Redefine keys ToggleMacroEditingMode string
+RedefineKeys_Toggle Macro Editing Mode,Toggle Macro Editing Mode,Вкл./выкл. режим изменения макроса,,Redefine keys ToggleMacroEditingMode string
 RedefineKeys_Increase Brush Size,Increase Brush Size,Увеличить размер кисти,,Redefine keys Increase Brush Size string
 RedefineKeys_Increase_Brush Size,Increase Brush Size,Увеличить размер кисти,,Redefine keys Increase_Brush Size string
 RedefineKeys_Decrease Brush Size,Decrease Brush Size,Уменьшить размер кисти,,Redefine keys Decrease Brush Size string
@@ -7898,8 +7889,8 @@ RedefineKeys_TextEditor,Text Editor,Текстовый редактор,,Redefin
 RedefineKeys_SequenceEditor,Sequence Editor,Редактор последовательностей,,Redefine keys location entry
 RedefineKeys_ImageEditor,Image Editor,Редактор изображений,,Redefine keys location entry
 RedefineKeys_RoomEditor,Room Editor,Редактор комнат,,Redefine keys location entry
-RedefineKeys_TimelineEditor,Timeline Editor,Редактор таймлайнов,,Redefine keys location entry
-RedefineKeys_TilesetEditor,Tileset Editor,Редактор наборов плиток,,Redefine keys location entry
+RedefineKeys_TimeLineEditor,Timeline Editor,Редактор таймлайнов,,Redefine keys location entry
+RedefineKeys_TileSetEditor,Tileset Editor,Редактор наборов плиток,,Redefine keys location entry
 RedefineKeys_SpriteEditor,Sprite Editor,Редактор спрайтов,,Redefine keys location entry
 RedefineKeys_PathEditor,Path Editor,Редактор путей,,Redefine keys location entry
 RedefineKeys_ObjectEditor,Object Editor,Редактор объектов,,Redefine keys location entry
@@ -7910,6 +7901,9 @@ RedefineKeys_ContextMenu,Context Menu,Контекстное меню,,Redefine 
 RedefineKeys_FontEditor,Font Editor,Редактор шрифтов,,Redefine keys location entry
 RedefineKeys_SoundEditor,Sound Editor,Редактор звуков,,Redefine keys location entry
 RedefineKeys_SoundMixer,Sound Mixer,Микшерный пульт,,Redefine keys location entry
+RedefineKeys_Debugger,Debugger,Отладчик,,Redefine keys location entry
+RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
+RedefineKeys_Workspace,Workspace,Рабочая зона,,Redefine keys location entry
 RedefineKeys_Command,Command,Команда,,Redefine keys Command label
 RedefineKeys_Keys,Keys,Клавиши,,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Запуск Rollback,,Other event subtype
