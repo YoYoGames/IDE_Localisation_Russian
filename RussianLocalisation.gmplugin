@@ -3,12 +3,7 @@
   "bundle_version": "1.0.0",
   "bundle_description": "Russian IDE localisations",
   "required": false,
-  "endpoints": [
-    {
-      "endpoint_name": "github",
-      "github_url": "https://api.github.com/repos/YoYoGames/IDE_Localisation_Russian"
-    }
-  ],
+  "feature_flag": "",
   "plugins": [
     {
       "plugin_name": "RussianLocalisation",
@@ -17,13 +12,21 @@
       "type": "Language",
       "plugin_data": {
         "languages": [
-            { "Russian": "russian.csv" },
-            {"Russian": "russian_dnd.csv" }
+          {
+            "Russian": "russian.csv"
+          },
+          {
+            "Russian": "russian_dnd.csv"
+          }
         ]
       },
       "description": "Russian IDE localisations",
       "required_assemblies": [],
       "dependencies": []
     }
-  ]
+  ],
+  "endpoints": [],
+  "author": "GameMaker",
+  "signature": "fjP6\u002BCvpEyfgz76Q0pKgtDlHsN6lqC5oxfUceRSNC3WI36nCs9f60F2\u002BZ\u002B5hUaU0paYTncgfPctYY9mZF920PTCAUpGsuDAflGvMO0njYbwFLKxAPUbD5tqeerAdI36bl7O/aKmAlIrzUzk4aZHmVtxiIo2xNkdUudTe/C/dNOI=",
+  "verify": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfaWA3d2WPN5cJCqTJJj72v6p0a4toQY7MzAPpkXkDxdPpeWMbrV4AQs9V\u002BbGVZ4PaGA3Gl0DWzfSmb\u002Btd/oDtzZZ2XehhxyFg\u002BanTPo6MdTasMkXEDBU50f6e7m3ruelF1QIER0\u002BulTNMI8\u002B\u002BURtTcPu/\u002BalhiA5z7BJP/u2MWwIDAQAB"
 }
