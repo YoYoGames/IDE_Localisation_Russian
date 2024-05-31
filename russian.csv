@@ -7815,7 +7815,6 @@ RedefineKeys_tile_line,Tile Line,Линия плитки,,Redefine keys tile_lin
 RedefineKeys_tile_rect,Tile Rect,Прямоугольник плитки,,Redefine keys tile_rect string
 RedefineKeys_tile_select,Tile Select,Выбор плитки,,Redefine keys tile_select string
 RedefineKeys_tile_autotile,Tile Autotile,Плитка — Автоматическое мозаичное заполнение,,Redefine keys tile_autotile string
-RedefineKeys_Rotate,Rotate,Вращение,,Redefine keys Rotate string
 RedefineKeys_autotile_add_full_set,Autotile Add Full Set,Автоматическое мозаичное заполнение — Добавить полный набор,,Redefine keys autotile_add_full_set string
 RedefineKeys_autotile_add_transition_set,Autotile Add Transition Set,Автоматическое мозаичное заполнение — Добавить переходной набор,,Redefine keys autotile_add_transition_set string
 RedefineKeys_autotile_delete_set,Autotile Delete Set,Автоматическое мозаичное заполнение — Удалить набор,,Redefine keys autotile_delete_set string
@@ -7904,8 +7903,8 @@ RedefineKeys_SoundMixer,Sound Mixer,Микшерный пульт,,Redefine keys
 RedefineKeys_Debugger,Debugger,Отладчик,,Redefine keys location entry
 RedefineKeys_GMLVisual,GML Visual,GML Visual,,Redefine keys location entry
 RedefineKeys_Workspace,Workspace,Рабочая зона,,Redefine keys location entry
-RedefineKeys_Command,Command,Команда,,Redefine keys Command label
-RedefineKeys_Keys,Keys,Клавиши,,Redefine keys Keys label
+RedefineKeys_Command,Command{0},Команда{0},,Redefine keys Command label
+RedefineKeys_Keys,Keys{0},Клавиши{0},,Redefine keys Keys label
 Event_Other_RollbackStart,Rollback Start,Запуск Rollback,,Other event subtype
 Event_Other_RollbackEvent,Rollback Event,Событие Rollback,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
